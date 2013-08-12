@@ -1,0 +1,17 @@
+{
+    "name": "plaf/contract",
+    "description": "Simple contracts library for PHP",
+    "authors": [
+        {
+            "name": "Valeriy Tverdohleb",
+            "email": "tvsdesign@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/php-code-coverage": "*"
+    },
+    "autoload": {
+        "psr-0": { "Plaf\\Contract\\": "library" }
+    }
+}
